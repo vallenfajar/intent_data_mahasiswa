@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Input</string>
+    <string name="nim">Nim</string>
+    <string name="nama">Nama</string>
+    <string name="nilai">Nilai</string>
+    <string name="proses">PROSES</string>
+    <string name="back">BACK</string>
+    <string name="data_nilai_mahasiswa">Data Nilai Mahasiswa</string>
+    <string name="universitas_teknologi_yogyakarta">UNIVERSITAS TEKNOLOGI YOGYAKARTA</string>
+    <string name="fakultas_teknologi_informasi_dan_elektro">FAKULTAS TEKNOLOGI INFORMASI DAN ELEKTRO</string>
+    <string name="hasil_data_mahasiswa">Hasil Data Mahasiswa</string>
+</resources>

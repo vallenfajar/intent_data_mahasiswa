@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6AD5D5"
+
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="200dp"
+        android:background="#FFFFFF"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/data_nilai_mahasiswa"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/judul"
+            android:hint="@string/nim"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edit_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_nim"
+            android:hint="@string/nama"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edit_nilai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_nama"
+            android:hint="@string/nilai"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/button_proses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_nilai"
+            android:text="@string/proses" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/logo_uty"
+        android:layout_width="81dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@mipmap/uty" />
+
+    <TextView
+        android:id="@+id/nama_uty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/logo_uty"
+        android:text="@string/universitas_teknologi_yogyakarta"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fakultas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama_uty"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/logo_uty"
+        android:text="@string/fakultas_teknologi_informasi_dan_elektro"
+        android:textSize="10dp" />
+</RelativeLayout>
